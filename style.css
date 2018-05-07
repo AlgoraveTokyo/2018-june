@@ -1,0 +1,96 @@
+body {
+  color: #3a4652;
+  margin: 0;
+  background-color: #ddd;
+  font-family: Helvetica, nimbussansl, liberationsans, freesans, clean, sans-serif;
+}
+
+h1 {
+  font-size: 51px;
+}
+h2 {
+  font-size: 26px;
+}
+h3 {
+  font-size: 23px;
+}
+h4 {
+  font-size: 20px;
+}
+
+.bg-img {
+  margin: 0 auto;
+  position: fixed;
+  /*width: 110%;*/
+  width: 75%;
+  max-width: 75%;
+  min-width: 650px;
+  /*max-width: 110%;*/
+  height: 100%;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transform: translate(-50%, -50%);
+  opacity: 0.7;
+  background-image: url('./images/background.jpg');
+  background-size: cover;
+  /*background-position: center center;*/
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  max-width: 60%;
+  min-width: 650px;
+  padding-bottom: 20px; 
+  position: relative;
+  margin: 0 auto;
+  display: block;
+}
+
+.container .title {
+  margin-top: 20px;
+  height: 70px;
+}
+
+.container a{
+  color: #c96a71;
+}
+
+.container a:hover {
+  color: #773b40;
+}
+
+.ticket ul {
+  padding: 0 12px 0 12px;
+  list-style: none;
+}
+
+.reservation .reservation_btn {
+  display: inline-block;
+  padding: 0.3em 1em;
+  text-decoration: none;
+  color: #c96a71;
+  border: solid 2px #c96a71;
+  border-radius: 3px;
+  transition: .25s;
+}
+
+.reservation .reservation_btn:hover {
+  background: #773b40;
+  color: white;
+}
+
+
+.artists ul {
+  padding: 0 12px 0 12px;
+}
+.artists ul li {
+  list-style: none;
+  font-size: 22px;
+  padding: 8px;
+}
+
+.fa {
+  color: #3a4652;
+}
