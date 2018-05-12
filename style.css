@@ -86,8 +86,9 @@ h4 {
   padding: 0 12px 0 12px;
 }
 .artists ul li {
+  font-weight: bold;
   list-style: none;
-  font-size: 22px;
+  font-size: 24px;
   padding: 8px;
 }
 
